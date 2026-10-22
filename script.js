@@ -24,13 +24,20 @@ for ( let i = 0; i < favoriteFoods.length; i++){
     // "Have you ever tried ____?"
     // "I always recommend ____ to friends."
     // "Trust me — ____ is delicious."
+ 
 
-
+function printFoodRecommendation(foodName){ 
+  console.log("Have you ever tried", foodName,"?")
+  console.log("I always recommend",foodName,"to friends.")
+  console.log("Trust me-", foodName,"is delicious.")
+};
 
 
 // 4b. Call the function at least 3 times
 
-
+printFoodRecommendation(favoriteFoods[3]);
+printFoodRecommendation(favoriteFoods[4]);
+printFoodRecommendation(favoriteFoods[5]);
 
 // Here's a list of 50 friends' favorite foods:
 let friendFavorites = [
